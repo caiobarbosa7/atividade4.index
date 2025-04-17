@@ -1,0 +1,71 @@
+/* Fontes base */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav */
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #01020a;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #195abd;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Imagem de entrada */
+.entrada img {
+  width: 100%;
+  height: auto;
+}
+
+/* Backgrounds por página */
+body.pagina-index {
+  background-color: #fef6e4;
+  font-family: 'Lobster', cursive;
+}
+
+body.pagina1 {
+  background-color: #e0f7fa;
+  font-family: 'Pacifico', cursive;
+}
+
+body.pagina2 {
+  background-color: #f3e5f5;
+  font-family: 'Oswald', sans-serif;
+}
+
+body.pagina3 {
+  background-color: #e8f5e9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body.pagina4 {
+  background-color: #fff3e0;
+  font-family: 'Roboto', sans-serif;
+}
